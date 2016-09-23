@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VisualStudio" xml:space="preserve">
+    <value>VisualStudio.DTE.14.0</value>
+    <comment>Supported version</comment>
+  </data>
+  <data name="notConfigured" xml:space="preserve">
+    <value>The tags are not setup or not found, check the tools/Options menu</value>
+    <comment>Missing setup;</comment>
+  </data>
+  <data name="selectWIT" xml:space="preserve">
+    <value>Active Work Item</value>
+    <comment>Select the active work item section title</comment>
+  </data>
+  <data name="informationString" xml:space="preserve">
+    <value>Type in the work item id for one or more work items that you intend to make changes for. Separate the id's with a comma sign.</value>
+    <comment>Selected work item text</comment>
+  </data>
+  <data name="xppDev" xml:space="preserve">
+    <value>Recent Changes</value>
+    <comment>xpp developer section</comment>
+  </data>
+  <data name="StartTag" xml:space="preserve">
+    <value>//++Start: Work item: {workitem} Project: {project} {lb}Developer: {developer} Date: {date}</value>
+    <comment>Default code comment template (Start)</comment>
+  </data>
+  <data name="noWorkItemSelected" xml:space="preserve">
+    <value>Select a work item as the item to tag your code and check in comments with.</value>
+  </data>
+  <data name="InsertCodeTag" xml:space="preserve">
+    <value>Insert Tag</value>
+    <comment>Insert code tag menu item</comment>
+  </data>
+  <data name="Settingsfile" xml:space="preserve">
+    <value>\xppDevHelper.set</value>
+    <comment>Settingsfile</comment>
+  </data>
+  <data name="xppDevEventLog" xml:space="preserve">
+    <value>XPP Developer</value>
+    <comment>Event source for AX7 plugin events.</comment>
+  </data>
+  <data name="logMessage" xml:space="preserve">
+    <value>The event {0} could not be logged, restart Visual Studio</value>
+    <comment>Not running as admin and no event source registered</comment>
+  </data>
+  <data name="checkInCommentTitle" xml:space="preserve">
+    <value>Check In Status</value>
+    <comment>Title for the checkin comment section</comment>
+  </data>
+  <data name="reflectionPendingChangesFail" xml:space="preserve">
+    <value>Failed to reflect PendingChangesPage {0}</value>
+    <comment>Error in reflection</comment>
+  </data>
+  <data name="defaultCheckInComment" xml:space="preserve">
+    <value> {solution} ({status})</value>
+    <comment>Default check in comment</comment>
+  </data>
+  <data name="registerEventSource" xml:space="preserve">
+    <value>The event source xpp developer must be registred, in order to do that start Visual Studio run with the administrator privilege level (you need to do that if you run AX7 development too)</value>
+    <comment>Register event source</comment>
+  </data>
+  <data name="MyChangesSection" xml:space="preserve">
+    <value>My Changes</value>
+    <comment>Title for my changes section</comment>
+  </data>
+  <data name="xppDevEventLogName" xml:space="preserve">
+    <value>XPP Developer Eventlog</value>
+    <comment>Eventlog name</comment>
+  </data>
+  <data name="RecentChangesPage" xml:space="preserve">
+    <value>Recent Changes</value>
+    <comment>Title for recent changes page</comment>
+  </data>
+  <data name="AllChangesSection" xml:space="preserve">
+    <value>All changes</value>
+    <comment>Title for all changes page</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="XppDevs_Logo_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XppDevs-Logo-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updatedInformationString" xml:space="preserve">
+    <value>You have selected {0} Type in the work item id for one or more work items that you intend to make changes for. Separate the id's with a comma sign. </value>
+    <comment>Updated text</comment>
+  </data>
+  <data name="NoWIT" xml:space="preserve">
+    <value>type a work item id</value>
+    <comment>Default WIT</comment>
+  </data>
+  <data name="SampleImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SampleImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectedWordDisplayName" xml:space="preserve">
+    <value>Highlight Selected Word</value>
+    <comment>Display name for word highlight</comment>
+  </data>
+  <data name="Settingfolder" xml:space="preserve">
+    <value>xppDev</value>
+    <comment>Settings folder</comment>
+  </data>
+  <data name="EndTag" xml:space="preserve">
+    <value>//--End: Work item: {workitem}</value>
+    <comment>Default code comment template (End)</comment>
+  </data>
+  <data name="XppDevs-Logo-48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XppDevs-Logo-48x48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xppDevErrorTitle" xml:space="preserve">
+    <value>XPP Developer - Error</value>
+    <comment>Caption for error messages</comment>
+  </data>
+  <data name="xppNoSettings" xml:space="preserve">
+    <value>Check your settings, the settings for the xpp Dev helper appliction is not setup</value>
+    <comment>General error</comment>
+  </data>
+  <data name="xppDevHomePage" xml:space="preserve">
+    <value>https://github.com/XppDevs</value>
+    <comment>Home page for xppdev</comment>
+  </data>
+</root>

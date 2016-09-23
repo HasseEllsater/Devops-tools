@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="AXDevHelper.xppDevCheckInView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AXDevHelper"
+             mc:Ignorable="d" 
+             d:DesignHeight="52.666" d:DesignWidth="218.333">
+    <Grid>
+        <Label x:Name="label" Content="Status" Margin="5,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <ComboBox x:Name="checkInStatus" Margin="57,14,0,0" VerticalAlignment="Top" SelectionChanged="checkInStatus_SelectionChanged" HorizontalAlignment="Left" Width="138" >
+            <ComboBoxItem Content="Start"/>
+            <ComboBoxItem Content="Part"/>
+            <ComboBoxItem Content="Done"/>
+        </ComboBox>
+    </Grid>
+</UserControl>
